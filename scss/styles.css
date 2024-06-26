@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+span {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.display {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: blue;
+  color: #fff;
+}
+
+#mainheader {
+  background: url("/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainheader #showcase {
+  width: 80%;
+  margin: 0 auto;
+}
+#mainheader #showcase .showcase-flex .show-img {
+  width: 30%;
+}
+
+#about {
+  width: 90%;
+  margin: 0 auto;
+}
+#about .about-flex {
+  gap: 80px;
+}
+#about .about-flex p {
+  width: 60%;
+  text-align: justify;
+}
+#about .about-flex .icons-flex img {
+  width: 50px;
+}
+#about .about-flex .icons-flex h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+#about .about-flex .icons-flex .icons-flex1 {
+  margin-bottom: 2rem;
+}
+
+#courses {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+#courses .courses-flex .user {
+  border-radius: 50%;
+  width: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem;
+  background: blue;
+}/*# sourceMappingURL=styles.css.map */

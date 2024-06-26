@@ -70,8 +70,64 @@ img {
     color: #fff;
 }
 
+//mainheader
+#mainheader {
+    background: url("/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //showcase
+    #showcase {
+        width: 80%;
+        margin: 0 auto;
+        .showcase-flex {
+            .show-img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+//about
+#about {
+    width: 90%;
+    margin: 0 auto;
+    .about-flex {
+        p {
+            width: 60%;
+            text-align: justify;
+        }
+        gap: 80px;
+        .icons-flex {
+            img {
+                width: 50px;
+            }
+            h2 {
+                font-size: 1rem;
+                margin-top: 1rem;
+            }
+            .icons-flex1 {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+//courses
+#courses {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    .courses-flex {
+        .user {
+            border-radius: 50%;
+            width: 50px;
+        }
+    }
+}
+
 //footer
-#fooer {
+#footer {
     text-align: center;
     padding: 3rem;
     background: blue;
