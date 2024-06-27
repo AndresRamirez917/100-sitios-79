@@ -1,0 +1,22 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        ul {
+            display: block;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        li {
+            text-align: center;
+        }
+        .container {
+            display: block;
+        }
+    }
+}
