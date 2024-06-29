@@ -72,6 +72,11 @@ img {
   text-transform: uppercase;
 }
 
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
 #mainheader {
   background: url("/images/background.png");
   background-position: center;

@@ -52,7 +52,26 @@
             margin: 0 auto;
             padding-bottom: 2rem;
         }
+        .icons-flex {
+            display: block;
+           width: 100%;
+           margin: 0 auto;
+            // margin-left: 8rem;
+            text-align: center;
+            .icons-flex1 {
+            
+                text-align: center;
+            }
+        }
     }
 }
 
 //courses
+#courses {
+    .courses-flex {
+        display: block;
+        .flexbox-1 {
+            margin-bottom: 2rem;
+        }
+    }
+}

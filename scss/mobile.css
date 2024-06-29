@@ -41,4 +41,20 @@
   text-align: justify;
   margin: 0 auto;
   padding-bottom: 2rem;
+}
+#about .about-flex .icons-flex {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#about .about-flex .icons-flex .icons-flex1 {
+  text-align: center;
+}
+
+#courses .courses-flex {
+  display: block;
+}
+#courses .courses-flex .flexbox-1 {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=mobile.css.map */
