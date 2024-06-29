@@ -14,4 +14,31 @@
 }
 #mainheader .navbar .container {
   display: block;
+}
+#mainheader #showcase .showcase-flex {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+#mainheader #showcase .showcase-flex .show-img {
+  width: 100%;
+}
+#mainheader #showcase .showcase-flex .showcase-text h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+#mainheader #showcase .showcase-flex .showcase-text p {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#about .about-flex {
+  display: block;
+}
+#about .about-flex p {
+  width: 100%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 2rem;
 }/*# sourceMappingURL=mobile.css.map */
